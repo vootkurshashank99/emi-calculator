@@ -1,0 +1,37 @@
+.calculator-container {
+  max-width: 420px;
+  margin: 50px auto;
+  padding: 24px;
+  border: 2px solid #e0e0e0;
+  border-radius: 24px;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
+}
+
+.input-group {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.input-group input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.results-box {
+  margin-top: 24px;
+  padding: 16px;
+  background-color: #faf8f8;
+  border-radius: 8px;
+  line-height: 1.6;
+}
